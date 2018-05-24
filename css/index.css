@@ -1,0 +1,68 @@
+#app_body{
+    width: 100%;
+}
+ul,li,a,p,img{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 1.39rem;
+    font-size: .483rem;
+    color: #333;
+}
+.top_content{
+    position: relative;
+    width: 9.33rem;
+    height: 100%;
+    overflow: hidden;
+    text-align:center;
+    line-height: 1.39rem;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.06rem;
+    margin-top: .289rem;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+    height: 100%; 
+}
+.top_right:nth-of-type(1){
+    margin-left:0;
+}
+.top_right{
+    margin-top: .402rem;
+    width: .644rem;
+    margin-left: .56rem;    
+}
+.bottom{
+    width: 100%;
+    height: 4.39rem;
+    font-size: .322rem;
+}
+.jiantou{
+    width: .297rem;
+    margin-top: .405rem
+}
+.title{
+    width: 5rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bottom{
+    width: 100%;
+    height: 1.38rem;
+    
+}
+
+
