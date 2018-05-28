@@ -1,16 +1,30 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 #app_body{
     width: 100%;
+    overflow: hidden;
+    opacity: 0;
 }
-ul,li,a,p,img{
+ul,li,a,p,img,h4{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.content_center{
+    width: 9.33rem;
+    margin: 0 auto;
 }
 .top{
     width: 100%;
     height: 1.39rem;
     font-size: .483rem;
     color: #333;
+}
+.center{
+    width: 100%;
 }
 .top_content{
     position: relative;
@@ -61,8 +75,148 @@ ul,li,a,p,img{
 }
 .bottom{
     width: 100%;
-    height: 1.38rem;
-    
+    height: 1.38rem;  
+}
+.bottom_top{
+    text-align: center;
+    width: 100%;
+    height: 1.36rem;
+    background: #eceef0;
+    color: #aaaaaa;
+    font-size: .322rem;
+    line-height: 1.36rem;
+}
+.bottom_top_img{
+    width: .442rem;
+    vertical-align: middle;
+}
+.email,.pc{
+    padding:0 .322rem ;
+}
+.email{
+    border-right: 1px solid #aaaaaa;
+}
+.bottom_content{
+    width: 100%;
+    height: 1.30rem;
+    background: #24262b;
+    color: #b3b7c0;
+    font-size: .32rem;
+    line-height: 1.3rem;
+}
+.bottom_content span{
+    color: #b3b7c0;
+    padding: 0 .27rem;
+    border-right: 1px solid #b3b7c0;
+}
+.bottom_content a{
+    text-decoration: none;
+}
+.bottom_content a:nth-last-of-type(1) span{
+   border-right: none; 
 }
 
-
+.bottom_bottom{
+    width: 100%;
+    height: 1.81rem;
+    background: #1a1b20;
+    color: #61646b; 
+    font-size: .28rem; 
+    overflow: hidden;  
+}
+.bottom_bottom_txt{
+    width: 8.85rem;
+    margin: .4rem auto 0;
+    line-height: .5rem;
+    text-align: center;
+}
+/* 图书购买 */
+.gobuys{
+    width: 100%;
+    height: 2.89rem;
+    padding:.48rem 0;
+    border-bottom: 1px solid #dedede;
+}
+.gobuys_img{
+    width: 2.13rem;
+    margin-right: .40rem;
+    float: left;
+}
+.gobuys_text{
+    width: 6.8rem;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.gobuys_text_h4{
+    width: 100%;
+    font-size: .40rem;
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin:.1rem 0 .3rem;
+}
+.gobuys_text_name{
+    font-size: .322rem;
+    color: #666;
+    margin-bottom: .8rem;
+}
+.gobuys_text_jia{
+    font-size: .40rem;
+    color: #ff8401;
+}
+.gobuys_text_jiatxt{
+    font-size: .28rem;
+}
+.gobuys_gobuy{
+    position: absolute;
+    font-size: .322rem;
+    color: #fff;
+    background: #ff8401;
+    padding: .24rem .48rem;
+    bottom: 0.11rem;
+    right: 0;
+    border-radius:.48rem;
+}
+/* 更多 */
+.gengduo{
+    width: 100%;
+    height: 1.48rem;
+    text-align: center;  
+}
+.gengduo_txt{
+    padding: .19rem .53rem;
+    font-size: .322rem;
+    color: #0e5daa;
+    border:1px solid #0e5daa;
+    border-radius: .35rem;
+    display: inline-block;
+    height: .322rem;
+    line-height:.322rem;
+    margin-top: .36rem;
+}
+.jiange{
+    width: 120%;
+    height: .24rem;
+    background: #eceef0;
+    margin-left: -0.64rem;
+}
+/* 空圆 */
+.classify_txt{
+    float: left;
+    display:inline-block;
+    margin: .40rem 0 0 .322rem;
+    font-size: .40rem;
+    color: #333;
+    font-weight: bold;
+}
+.classify_txt span{
+    display: inline-block;
+    width: .18rem;
+    height: .18rem;
+    border: 1px solid #0e5daa ;
+    border-radius: 50%;
+    margin-right: .24rem;
+}

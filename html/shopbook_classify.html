@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="full-screen" content="yes">
+    <!-- <meta name="x5-fullscreen" content="true"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>首页</title>
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- 本页引入 -->
+    <link rel="stylesheet" href="../css/shop/shopbook.css">
+    <link rel="stylesheet" href="../css/shop/shopbook_classify.css">
+</head>
+
+<body>
+    <div id="app_body">
+        <div class="center">
+            <div class="shopbook_banner">
+                <img class="shopbook_banner_img" src="../img/shopbook/shopbook_bj_02.png" alt="">
+                <a href="" class="tianmao">
+                    <div class="shop">
+                        <img class="shop_img" src="../img/shopbook/shopbook_03.png" alt=""> 天猫商场
+                    </div>
+                </a>
+                <a href="" class="jingdong">
+                    <div class="shop">
+                        <img class="shop_img" src="../img/shopbook/shopbook_06.png" alt=""> 京东商场
+                    </div>
+                </a>
+            </div>
+            <div class="classify">
+                <span class="classify_txt">
+                    <span></span>图书大全
+                </span>
+                <p class="classify_image_text">
+                    <a href="shopbook_classify.html" class="classify_image_text_a"><img class="classify_image" src="../img/shopbook/shopbook_11.png" alt=""> 分类</a>
+                </p>
+            </div>
+            <div class="jiange"></div>
+            <div class="classify1">
+                <ul class="classify_ul">
+                    <li class="classify_li">
+                        2015药典
+                        <ul class="classify_ul_zi">
+                            <li class="classify_ul_zi_li">中医人沙龙丛书</li>
+                            <li class="classify_ul_zi_li">最新图解中医丛书</li>
+                            <li class="classify_ul_zi_li">每天学点中医丛书</li>
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">古今名医临证实录丛书</li>
+                        </ul>
+                    </li>
+                    <li class="classify_li">
+                        2017执业药师
+                        <ul class="classify_ul_zi">
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">中医人沙龙丛书</li>
+                            <li class="classify_ul_zi_li">最新图解中医丛书</li>
+                            <li class="classify_ul_zi_li">每天学点中医丛书</li>
+                            <li class="classify_ul_zi_li">国医大师亲笔真传系列</li>
+                            <li class="classify_ul_zi_li">秦伯未医学全书</li>
+                            <li class="classify_ul_zi_li">张锡纯医学全书</li>
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">古今名医临证实录丛书</li>
+                            <li class="classify_ul_zi_li">每天学点中医丛书</li>
+                            <li class="classify_ul_zi_li">国医大师亲笔真传系列</li>
+                        </ul>
+                    </li>
+                    <li class="classify_li">
+                        权威药学
+                        <ul class="classify_ul_zi">
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">中医人沙龙丛书</li>
+                            <li class="classify_ul_zi_li">最新图解中医丛书</li>
+                           <li class="classify_ul_zi_li">国医大师亲笔真传系列</li>
+                        </ul>
+                    </li>
+                    <li class="classify_li">
+                        教材
+                        <ul class="classify_ul_zi">
+                           <li class="classify_ul_zi_li">秦伯未医学全书</li>
+                            <li class="classify_ul_zi_li">张锡纯医学全书</li>
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">古今名医临证实录丛书</li>
+                            <li class="classify_ul_zi_li">每天学点中医丛书</li>
+                            <li class="classify_ul_zi_li">国医大师亲笔真传系列</li>
+                        </ul>
+                    </li>
+                    <li class="classify_li">
+                        考试用书
+                        <ul class="classify_ul_zi">
+                            <li class="classify_ul_zi_li">大国医系列之传世名方</li>
+                            <li class="classify_ul_zi_li">中医人沙龙丛书</li>
+                            <li class="classify_ul_zi_li">最新图解中医丛书</li>
+                            <li class="classify_ul_zi_li">每天学点中医丛书</li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="../js/babel.js"></script>
+<script type="text/babel">
+window.onload = function(){
+    $("#app_body").css({"opacity":"1"})
+    // 默认状态设置盒子高度
+    if($(".classify_ul").height()>$(".classify_ul_zi").eq(0).height()){
+                $(".classify1").css({"height":$(".classify_ul").height()+"px"})
+            }else{
+                $(".classify1").css({"height":$(".classify_ul_zi").eq(0).height()+"px"})
+            }
+    // 显示自己
+   $(".classify_ul_zi").eq(0).css({"display":"block"})
+   $(".classify_li").eq(0).css({"background":"#fff","border-right-color":"rgba(0,0,0,0)","color":"#0e5daa"})
+//    点击显示子集 并改变样式
+   for(let i=0;i<$(".classify_li").length;i++){
+        $(".classify_li").eq(i).click(function(){
+            $(".classify_ul_zi").css({"display":"none"})
+            $(".classify_ul_zi").eq(i).css({"display":"block"})
+            $(".classify_li").css({"background":"#f7f7f7","border-right-color":"#d7d7d7","color":"#333"})
+            $(this).css({"background":"#fff","border-right-color":"rgba(0,0,0,0)","color":"#0e5daa"})
+            if($(".classify_ul").height()>$(".classify_ul_zi").eq(i).height()){
+                $(".classify1").css({"height":$(".classify_ul").height()+"px"})
+            }else{
+                $(".classify1").css({"height":$(".classify_ul_zi").eq(i).height()+"px"})
+            }
+        })
+   }
+//    子集点击改变样式
+   for(let i=0;i<$(".classify_ul_zi_li").length;i++){
+        $(".classify_ul_zi_li").eq(i).click(function(){
+            $(".classify_ul_zi_li").css({"color":"#333"})
+            $(this).css({"color":"#0e5daa"})
+        })
+   }
+
+}
+
+   
+</script>
+
+</html>

@@ -1,0 +1,200 @@
+.center{
+    width: 100%;
+    
+}
+.shopbook_detail{
+    width: 9.33rem;
+    height: 4.78rem;
+    padding: .67rem .32rem .70rem; 
+    background: url("../../img/shopbook/detail_02.png")no-repeat;
+    background-size: 100% 100%;
+}
+.detail_div{
+    width: 9.33rem;
+    height: 4.77rem;
+}
+.detail_div_image{
+    width: 3.57rem;
+    float: left;
+}
+.detail_div_text{
+    width: 5.18rem;
+    height: 100%;
+    float: right;
+    font-size: .28rem;
+    color: #fff;
+}
+.detail_div_text p{
+    margin-bottom: .22rem;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detail_div_text p:nth-last-of-type(1){
+    margin-bottom: 0;
+}
+.detail_div_text_p{
+    font-size: .44rem;
+    
+}
+.detail_div_text_p1{
+    font-size: .322rem;
+}
+/* 图书目录 */
+.detail_catalog{
+    width: 100%;
+    height: 1.26rem;
+}
+.catalog{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.catalog>a>span{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    line-height: 1.26rem;
+    padding: 0 .28rem;
+    font-size: .40rem;
+    color: #333;
+}
+.border_bottom{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid #0e5daa;
+    left: 0;
+}
+.border_bottom{
+    display: none;
+}
+/* title */
+.classify_txt{float: none;}
+.detail_title_name{
+    width: 100%;
+    height: .88rem;
+}
+.detail_xinxi{
+    width: 9.33rem;
+    height: 3.81rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #d7d7d7;
+}
+.detail_xinxi_left{
+    float: left;
+    width: 5.91rem;
+    font-size: .322rem;
+    color: #333;
+}
+.detail_xinxi_right{
+    float: right;
+    width: 3.42rem;
+    font-size: .322rem;
+    color: #333;
+}
+.detail_xinxi_left,.detail_xinxi_right{
+    margin-top: .45rem;
+}
+.detail_xinxi_left p,.detail_xinxi_right p{
+    margin-bottom: .2rem;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detail_xinxi_left p:nth-last-of-type(1),.detail_xinxi_right p:nth-last-of-type(1){
+    margin-bottom: 0rem;
+}
+/* 目录 */
+.catalog_xinxi_div{
+    overflow: hidden;
+    margin-top: .32rem;
+    width: 100%;
+    height: 5.8rem;
+    transition: all 1s;
+}
+.catalog_xinxi{
+    width: 9.33rem;
+    margin: 0 auto;
+}
+.catalog_xinxi_ul>li{
+    font-size: .32rem;
+    color: #0e5daa;
+    line-height: .65rem;
+}
+.catalog_xinxi_ul_ul>li{
+    font-size: .32rem;
+    color: #666;
+}
+.catalog_tiyao{
+    width: 9.33rem;
+    margin: 0 auto;
+    font-size: .322rem;
+    color: #333;
+    line-height: .64rem;
+    padding-bottom: .36rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+.detail_title_name1{
+    margin-bottom: .32rem;
+}
+.catalog_jiesuan{
+    width: 100%;
+    height: 1.28rem; 
+}
+.catalog_jiesuan_div{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    line-height: 1.28rem;
+    text-align: center;
+    font-size: .40rem;
+    color: #fff;
+}
+.catalog_tiyao1{
+    border: none;
+}
+.catalog_jiesuan{
+    border-top: 1px solid #d7d7d7;
+}
+.catalog_jiesuan_div1{
+    color: #f03535;
+    font-size: .458rem;
+}
+.catalog_jiesuan_div1>span{
+    color: #666;
+    font-size: .36rem;
+}
+.catalog_jiesuan a:nth-of-type(1) .catalog_jiesuan_div{
+    background: #ff8f00;
+}
+.catalog_jiesuan a:nth-of-type(2) .catalog_jiesuan_div{
+    background: #2278cc;
+}
+.gengduo{
+    border-bottom: 1px solid #d7d7d7;
+}
+/* catalog */
+.catalog_mulu_list{
+    font-size: .32rem;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid #d7d7d7
+}
+.catalog_mulu_list span{
+    display: inline-block;
+    padding: .322rem .32rem;
+    
+}
+.catalog_mulu_content{
+    width: 9.33rem;
+    margin: 0 auto;
+    font-size: .322rem;
+    color: #333;
+    line-height: .64rem;
+    padding: .46rem 0 .64rem;
+}

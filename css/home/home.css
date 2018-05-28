@@ -1,0 +1,352 @@
+.swiper_img{
+    width: 100%;
+}
+.swiper-pagination-bullet{
+    width: .136rem;
+    height: .136rem;
+    background: rgba(255,255,255,0.8);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    width: .466rem;
+    height: .122rem;
+    background: rgba(255,255,255,1);
+    border-radius: .061rem;
+}
+.swiper_content{
+    position: relative;
+    width: 9.33rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.swiper_txt{
+    width: 8.45rem;
+    position: absolute;
+    bottom: 0;
+    font-size: .322rem;
+    color: #fff;
+    background: #0e5daa;
+    padding: .40rem .48rem .40rem .40rem ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.swiper_slide{
+    height: 6.29rem;
+}
+.swiper_pagination .swiper-pagination-bullet{
+    background: #aaa
+}
+.swiper_pagination .swiper-pagination-bullet-active{
+    background: #0e5daa
+}
+.title{
+    width: 100%;
+    height: 1.75rem;
+}
+.title_top{
+    font-size: .442rem;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: .466rem;
+}
+.title_bottom{
+    width: 100%;
+    height: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .2rem;
+}
+.title_xian{
+    width: 3.52rem;
+    border-bottom: 1px solid #aaa; 
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: -0.22rem;
+}
+.title_content{
+    font-size: .30rem;
+    color: #666;
+    padding: 0 .22rem;
+    background: #fff;
+    height: .24rem;
+    position: absolute;
+    z-index: 2;
+    left: .37rem;
+    top: -0.22rem;
+}
+/* 新闻动态 */
+.new_list{
+    width: 100%;
+}
+.dynamic_list{
+    width: 100%;
+    height: .88rem;
+    font-size: .36rem;
+    color: #333;
+    border-bottom: 1px solid #dedede;
+}
+.dynamic_text{
+    display: inline-block;
+    height: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    line-height: .88rem;
+    margin-right: .80rem;
+}
+.dynamic_txt{
+    color: #0e5daa;
+    border-bottom: 1px solid #0e5daa;
+}
+
+/* 内容 */
+.dynamic_content{
+    width: 100%;
+}
+.dynamic_img_txt{
+    width: 100%;
+    height: 1.73rem;
+    padding: .48rem 0 .40rem;
+    border-bottom: 1px solid #dedede;
+}
+.dynamic_img1{
+    width: 2.77rem;
+    float: left;
+}
+.dynamic_txt1{
+    width: 6.16rem;
+    float: left;
+    margin-left: .40rem;
+}
+.dynamic_txt1_h4{
+    font-size: .322rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: .1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.dynamic_txt1_p{
+    font-size: .28rem;
+    color: #666;
+    line-height: .4rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+/* title1 */
+.title_xian1{
+    width: 5.12rem;
+}
+.title_content{
+    top: -0.2rem
+}
+.new_book{
+    width: 100%;
+    height: 5.98rem;
+    border-bottom: 1px solid #eceef0;
+}
+.new_book_list{
+    width: 100%;
+    height: 4.55rem;
+}
+.new_book_lists{
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-right: .7rem;
+}
+.new_book_list a:nth-last-of-type(1) .new_book_lists{
+    margin-right: 0;
+}
+.new_book_lists_img{
+    width: 2.64rem;
+}
+.new_book_lists_txt{
+    width: 100%;
+}
+.new_book_lists_h4{
+    font-size: .322rem;
+    color: #333;
+    font-weight: bold;
+}
+.new_book_lists_p{
+    font-size: .24rem;
+    color: #666;
+}
+.huan_img{
+    width: .43rem;
+    vertical-align: middle;
+}
+.huan{
+    width: 100%;
+    text-align: center;
+    font-size: .36rem;
+    color: #999;
+    margin-top: .52rem;
+}
+/* 9宫格 */
+.list_div{
+    width: 100%;
+    height: 4.75rem;
+    padding:.48rem 0 .34rem;
+}
+.list_divs{
+    width: 2.16rem;
+    height: 2.13rem;
+    text-align: center;
+    float: left;
+    margin:0 .217rem .233rem 0;
+    background: #f6f6f6;
+}
+.list_div a:nth-of-type(4n) .list_divs{
+    margin-right: 0;
+}
+.list_divs_img{
+    width: 1.02rem;
+    margin-top: .33rem;
+}
+.list_divs_txt{
+    /* margin-top: .33rem; */
+    font-size: .322rem;
+    color: #666;
+    
+}
+/* 精品图书 */
+.title_xian2{
+    width: 3.66rem;
+}
+/* 读者服务 */
+.title_xian3{
+    width: 3.67rem;
+}
+.reader_top{
+    width: 100%;
+    height: 4.46rem;
+}
+.reader_top_left{
+    width: 49.85%;
+    height: 49.85%;
+    border-right: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    float: left;
+}
+.reader_top_left:nth-of-type(2n){
+    border-right: none;
+}
+.reader_top_txt{
+    width: 2.73rem;
+    height: .84rem;
+    text-align: left;
+    float: left;
+    margin-left: .32rem;
+    margin-top: .64rem;
+    line-height: .48rem;
+}
+.reader_top_txt_p1,.reader_top_txt_p2{
+    width: 100%;
+    font-size: .34rem;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+.reader_top_txt_p2{
+    font-size: .28rem;
+    color: #666;
+    font-weight: 500;
+}
+.reader_top_img{
+    width: 1.09rem;
+    float: left;
+    margin-left: .3rem;
+    margin-top: .56rem;
+}
+/* 数字 */
+.title_xian4{
+    width: 4.3rem;
+}
+.shuzi{
+    padding-bottom: .48rem;  
+}
+.shuzi1{
+    width: 9.33rem;
+    height: 6.1rem;
+    margin: 0 auto;
+    
+}
+.shuzi_list{
+    width: 4.46rem;
+    height: 2.84rem;
+    position: relative;
+     float: left;
+     overflow: hidden;
+}
+.shuzi_list:nth-of-type(2n){
+    margin-left: .40rem;   
+}
+
+.shuzi_list:nth-of-type(1),.shuzi_list:nth-of-type(2){
+    margin-bottom: .40rem;  
+}
+.shuzi_list_img{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 10px;
+}
+.shuzi_list_txt{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.shuzi_list_txt_p1{
+    text-align: center;
+    font-size: .38rem;
+    color: #fff;
+    margin: .41rem 0 .2rem;
+}
+.shuzi_list_txt_p2{
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin-bottom: .3rem;
+}
+.shuzi_list_txt_div{
+    text-align: center;
+    line-height: .37rem;
+    height:.56rem;
+}
+.shuzi_list_txt_div a{
+    display: inline-block;
+    width: 1.77rem;
+    height: .56rem;
+}
+.shuzi_chakan{
+    font-size: .28rem;
+    display: inline-block;
+    padding: .1rem .26rem;
+    background: #fff;
+    border-radius: .26rem;   
+}
+.shuzi_list:nth-of-type(1) .shuzi_chakan{
+    color: #59b0d2;
+}
+.shuzi_list:nth-of-type(2) .shuzi_chakan{
+    color: #589fdf;
+}
+.shuzi_list:nth-of-type(3) .shuzi_chakan{
+    color: #e1a640;
+}
+.shuzi_list:nth-of-type(4) .shuzi_chakan{
+    color: #e5905c;
+}

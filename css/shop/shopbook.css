@@ -1,0 +1,111 @@
+.shopbook_banner{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.shopbook_banner_img{
+    width: 100%;
+}
+.shop{
+    width: 2.12rem;
+    height: .62rem;
+    line-height: .62rem;
+    font-size: .181rem;
+    color: #fff;
+    background: rgba(255,255,255,.2);
+    text-align: center;
+    border-radius: .62rem;
+}
+.tianmao{
+    display: inline-block;
+    position: absolute;
+    bottom: .53rem;
+    left: 2.7rem;
+    text-decoration: none;
+}
+.jingdong{
+    display: inline-block;
+    position: absolute;
+    bottom: .53rem;
+    left: 5.21rem;
+    text-decoration: none;
+    
+}
+.shop_img{
+    width: .45rem;
+    vertical-align: middle;
+}
+.classify{
+    width: 100%;
+    height: 1.16rem;
+}
+.classify_image_text{
+    float: right;
+    font-size: .36rem;
+    color: #666;
+    margin:  .40rem  .322rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classify_image_text_a{
+    color: #666;
+    text-decoration: none;
+}
+.classify_image{
+    width: .36rem;
+    vertical-align: bottom;
+    margin-right: .16rem
+}
+.jiange{
+    width: 100%;
+    height: .13rem;
+    background: #eceef0;
+}
+.classify_title{
+    width: 100%;
+    height: .99rem;
+    line-height: .99rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+/* classify 分类 */
+.classify_name{
+    display: inline-block;
+    width: 3rem;
+    height: .43rem;
+    border-right: 1px solid #d7d7d7;
+    font-size: .36rem;
+    color: #666;
+    line-height: .43rem;
+    text-align: center;
+}
+.sanjiao{
+    position: relative;
+    top: -0.05rem;
+    left: .24rem;
+    display: inline-block;
+}
+.sanjiao1{
+    border-left: .074rem solid transparent; 
+    border-right: .074rem solid transparent; 
+    border-top: .11rem solid #666;
+    display: inline-block;
+}
+.sanjiao2{
+    border-left: .074rem solid transparent; 
+    border-right: .074rem solid transparent; 
+    border-bottom: .11rem solid #0e5daa;
+    display: none;
+}
+
+.classify_name:nth-last-of-type(1){
+    border-right:none;
+}
+/* 图书购买 */
+.classify_content{
+    width: 9.33rem;
+    margin: 0 auto;
+    display: none;
+}
+
+
