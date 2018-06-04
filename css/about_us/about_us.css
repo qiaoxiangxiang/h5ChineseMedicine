@@ -1,0 +1,270 @@
+.title_name {
+    color: #333;
+}
+
+.xian {
+    background: #666;
+}
+
+.title_Ename_txt {
+    color: #666;
+}
+
+.ubout_us_div {
+    width: 9.33rem;
+    margin: 0 auto;
+}
+
+.ubout_us_img {
+    width: 100%;
+    padding: .51rem 0 .25rem;
+    border-top: 1px solid #d2d2d2;
+}
+
+.ubout_us_img:nth-of-type(1) {
+    padding-top: 0;
+    border: none;
+}
+
+.ubout_us_p {
+    font-size: .36rem;
+    color: #333;
+    line-height: .72rem;
+    padding-bottom: .32rem;
+}
+
+.ubout_us_p1 {
+    padding-bottom: 0;
+}
+
+/* 联系我们 */
+
+.contact_us {
+    width: 9.33rem;
+    margin: 0 auto;
+}
+
+.erweima {
+    width: 100%;
+    height: 3.78rem;
+    padding-bottom: .60rem;
+}
+
+.erweima_list {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.erweima_list img {
+    width: 3.10rem;
+}
+
+.erweima_list p {
+    width: 3.10rem;
+    font-size: .322rem;
+    color: #333;
+    text-align: center;
+}
+
+.erweima_list_left {
+    margin-left: .92rem;
+    width: 3.10rem;
+}
+
+.erweima_list_right {
+    width: 3.10rem;
+    margin-left: .50rem;
+}
+
+.content_us_title {
+    font-size: .44rem;
+    color: #333;
+    line-height: .64rem;
+    padding: .40rem 0 .32rem;
+}
+
+.content_us_content {
+    font-size: .322rem;
+    color: #666;
+    line-height: .64rem;
+}
+
+.content_us_content1 {
+    padding-top: .20rem;
+}
+
+.content_us_ul {
+    border-top: 1px solid #d2d2d2;
+    padding-bottom: .32rem
+}
+
+.Map {
+    width: 100%;
+    padding-bottom: .64rem;
+    display: block;
+}
+
+/* 企业文化 */
+
+.company {
+    width: 9.33rem;
+    margin: 0 auto;
+}
+
+.company_img {
+    width: 100%;
+    display: block;
+}
+
+.company_text {
+    width: 100%;
+    font-size: .32rem;
+    color: #333;
+    line-height: .70rem;
+}
+
+.company_text1 {
+    padding: .37rem 0 .7rem;
+}
+
+.company_text2 {
+    padding-bottom: .37rem;
+}
+
+/* 招贤纳士 */
+
+.jobs {
+    width: 9.33rem;
+    margin: 0 auto;
+}
+
+.jobs_content_li {
+    width: 2.89rem;
+    height: 1.34rem;
+    background: #f5f5f5;
+    float: left;
+    margin-right: .305rem;
+    margin-bottom: .305rem;
+    padding-top: .37rem;
+}
+.jobs_content_li p:nth-of-type(1){
+    font-size: .36rem;
+    text-align: center;
+}
+.jobs_content_li p:nth-of-type(2){
+    text-align: center;
+    font-size: .24rem;
+}
+.jobs_content_li>a{
+    text-decoration: none;
+}
+.jobs_content_li:nth-of-type(3n) {
+    margin-right: 0;
+}
+.jobs_content_li:nth-of-type(1)>a{color: #0e5daa;}
+.jobs_content_li:nth-of-type(2)>a{color: #ba8003;}
+.jobs_content_li:nth-of-type(3)>a{color: #c44e61;}
+.jobs_content_li:nth-of-type(4)>a{color: #059099;}
+.jobs_content_li:nth-of-type(5)>a{color: #b75739;}
+.jobs_content_li:nth-of-type(6)>a{color: #863bb6;}
+.jobs_content_li:nth-of-type(7)>a{color: #4a9f3c;}
+.jobs_content_li:nth-of-type(8)>a{color: #39a4a8;}
+.jobs_content_li:nth-of-type(9)>a{color: #a1963d;}
+.jobs_content_li:nth-of-type(10)>a{color: #5665bd;}
+.jobs_content_li:nth-of-type(11)>a{color: #77a535;}
+.jobs_content_li:nth-of-type(12)>a{color: #3473b0;}
+.jobs_content::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.jobs_img{
+    width: 100%; 
+    height: 2.14rem;
+    display: block;
+    padding:.161rem 0 .515rem;
+}
+/* 组织架构 */
+.chart{
+    width: 9.33rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.chart_top,.chart_center{
+    font-size: .40rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-bottom:.676rem;
+}
+.chart_top{
+    width:3.73rem;
+    height: 1.05rem;
+    background: #3d92f5;
+    line-height: 1.05rem;
+    margin-left: 2.8rem;
+}
+.chart_center{
+    width:5.15rem;
+    height: .925rem;
+    line-height: .925rem;
+    background: #2ea3e6;
+    margin-left: 2.08rem; 
+}
+.chart_xian1,.chart_xian2{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    height: .676rem;
+    background: #d2d2d2;
+    margin-bottom: -0.676rem;
+}
+.chart_content{
+    width: 100%;
+    height: 2.99rem;
+}
+.chart_xian_content{
+    position:absolute;
+    bottom: 0;
+    margin-bottom:-0.372rem;
+    height: .372rem;
+    white-space: nowrap;
+}
+.chart_xian3{
+    width: .7rem;
+    height: .372rem;
+    border:1px solid #d2d2d2;
+    border-bottom: none;
+    border-right: none;
+    display: inline-block;
+    z-index: 1;
+    float: left;
+}  
+.chart_content{
+    padding-top: .372rem;
+}
+.chart_list{
+    overflow: hidden;
+    width:.322rem;
+    height: 2.19rem;
+    font-size: .28rem;
+    color: #fff;
+    position:relative;
+    display:inline-block;
+    padding: .20rem .14rem;
+    background: #15b2d2;
+    border-radius: .1rem;
+    z-index: 2;
+    margin-left: .12rem;
+}
+
+.chart_xian3:nth-last-of-type(1){
+    border-top: none;
+}
+.chart_xian3:nth-of-type(1){
+    margin-left: .38rem;
+}

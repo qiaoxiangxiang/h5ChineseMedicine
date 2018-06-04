@@ -1,0 +1,223 @@
+.center{
+    width: 100%;
+}
+.reader_newbook,.newbook_img{
+    width: 100%;
+    height: 8.77rem;
+}
+.reader_newbook{
+    position: relative;
+    z-index: 1;
+}
+.newbook_text{
+    width: 9.3rem;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: .322rem;
+    overflow: hidden;
+}
+.newbook_imageTxt{
+    width: 100%;
+    height: 4.54rem;
+}
+.newbook_list:nth-last-of-type(1){
+    margin-right: 0;
+}
+.newbook_list{
+    float: left;
+    margin-right: .70rem;
+}
+.newbook_list>a{
+    text-decoration: none;
+}
+.newbook_list,.newbook_list_img{
+    width: 2.62rem;
+    height: 100%;
+}
+.newbook_list_img{
+    border: 1px solid #fff;
+    border-radius: .1rem;
+}
+.newbook_list_txt>p,.newbook_list_txt{
+    width: 100%;
+}
+.newbook_list_txt>p{
+    font-size: .281rem;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.newbook_list_txt>p:nth-of-type(1){
+    font-size: .322rem;
+    margin: .16rem 0;
+}
+
+.gengduo_txt{
+    color: #fff;
+    border-color: #fff;
+    margin-top: .523rem;
+}
+/* 书目 */
+.newbook_classify{
+    width: 100%;
+    height: 11.77rem;
+}
+.title_name1{
+    color: #333;
+}
+.title_Ename_txt1{
+    color: #666;
+}
+.xian1{
+    background: #666;
+}
+.sousuo{
+    width: 8.21rem;
+    height: 1.20rem;
+    padding: 0 .56rem;
+    border: 1px solid #0e5daa;
+    border-radius: .64rem;
+    background: #f9f9f9;
+    margin: 0 auto .684rem;
+}
+.sousuo_input{
+    width: 7.3rem;
+    height: 91%;
+    font-size: .362rem;
+    color: #b9b9b9;
+    border: none;
+    outline: none;
+}
+.sousuo_img{
+    width: .644rem;
+    position: relative;
+    top: .2rem
+}
+.xiazai{
+    width: 8.526rem;
+    height: 7.19rem;
+    background: #f9f9f9;
+    padding: 0 .402rem;
+    margin: 0 auto;
+}
+.xiazai>a{
+    text-decoration: none;
+}
+.xiazai_list{
+    width: 100%;
+    height: 1.198rem;
+    border-bottom: 1px solid #dadada; 
+}
+.xiazai a:nth-last-of-type(1) .xiazai_list{
+    border: none;
+}
+.xiazai_list_span{
+    display: inline-block;
+    width: 6.36rem;
+    font-size: .36rem;
+    color: #333;
+    margin-top: .34rem;
+}
+.xiazai_list_div{
+    display: inline-block;
+    width: 1.04rem;
+    border: 1px solid #ff8f00;
+    color: #ff8f00;
+    font-size: .322rem;
+    border-radius: .64rem;
+    padding: .08rem .40rem;
+    margin-top: .34rem;
+}
+.xiazai_list_div>img{
+    width: .305rem;
+    vertical-align: middle;
+}
+/* 图书 */
+.new_book{
+    width: 100%;
+    height: 27.71rem;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.new_book1{
+    width: 8.26rem;
+    height: 11.85rem;
+    padding: .48rem .59rem 0;
+    background: #fff;
+    margin: 0 auto;
+}
+.new_book1_img{
+    width: 100%;
+}
+.new_book1_txt{
+    width: 100%;
+    font-size: .28rem;
+    color: #666;
+    line-height: .56rem
+}
+.new_book1>h4{
+    font-size: .40rem;
+    color: #333;
+    font-weight: 500;
+    margin: .36rem 0 .08rem;
+}
+.yanzheng{
+    width: 100%;
+    height: 1.00rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .38rem;
+    color: #fff;
+    background: #0e5daa;
+    border-radius: .1rem;
+    margin-top: .22rem;
+}
+.new_book1:nth-last-of-type(1){
+    margin-top: .45rem;
+}
+/* 读者投稿 */
+.tougao{
+    width: 100%;
+    height: 10.06rem;
+    position: relative;
+}
+.tougao_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.tougao_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+}
+.tougao_txt{
+    width: 100%;
+    margin: 1.03rem 0 .77rem;
+    line-height: .68rem;
+}
+.tougao_txt>p{
+    color: #ffcd04;
+    width: 100%;
+    text-align: center;
+}
+.tougao_txt_p1{
+    font-size: .48rem;
+}
+.tougao_txt_p2{
+    font-size: .44rem;
+}
+.tougao_txt2{
+    width: 9.33rem;
+    margin: 0 auto;
+    font-size: .28rem;
+    color: #fff;
+    line-height:  .56rem;
+}

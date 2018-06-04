@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="full-screen" content="yes">
+    <!-- <meta name="x5-fullscreen" content="true"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>关于我们</title>
+    <script src="../../js/flexible.js"></script>
+    <script src="../../js/jquery-2.1.4.js"></script>
+    <script src="../../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <!-- 本页引入 -->
+    <link rel="stylesheet" href="../../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../../css/about_us/about_us.css">
+</head>
+
+<body>
+    <div id="app_body">
+        <div class="center">
+            <img class="jourmalism" src="../../img/banner/about_us_02.png" alt="">
+            <div class="jourmalism_nav">
+                <div class="swiper-container swiper-container-horizontal swiper_container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-active">
+                            <a href="about_us.html">
+                                <span class="jourmalism_nav_span">出版社简介</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_chart.html">
+                                <span class="jourmalism_nav_span">组织架构</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_company.html">
+                                <span class="jourmalism_nav_span">企业文化</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_contact.html">
+                                <span class="jourmalism_nav_span">联系我们</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_jobs.html">
+                                <span class="jourmalism_nav_span jourmalism_nav_span1">招贤纳士</span>
+                            </a>
+                            <span class="jourmalism_nav_span2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="newbook_text_title">
+                <div class="title_name">招贤纳士</div>
+                <div class="title_Ename">
+                    <span class="xian"></span>
+                    <span class="title_Ename_txt">RECRUIT AND RECRUIT</span>
+                    <span class="xian"></span>
+                </div>
+            </div>
+            <div class="jobs">
+                <div class="jobs_content">
+                    <ul>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>资深编辑</p>
+                                <p>Senior editor</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>课程设计</p>
+                                <p>Curriculum design</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>总编辑</p>
+                                <p>Editor in chief</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>图书编辑</p>
+                                <p>Book editor</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>新媒体编辑</p>
+                                <p>New media editor</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>美术编辑</p>
+                                <p>Art editor</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>市场推广专啧</p>
+                                <p>Market promotion</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>编务</p>
+                                <p>Make up for</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>项目经理</p>
+                                <p>project manager</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>数据分析师</p>
+                                <p>Data analyst</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>记者</p>
+                                <p>The reporter</p>
+                            </a>
+                        </li>
+                        <li class="jobs_content_li">
+                            <a href="">
+                                <p>印制员</p>
+                                <p>Printing member</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="jobs_img" src="../../img/about_us/tuandui_03.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../../js/babel.js"></script>
+<script type="text/babel">
+window.onload = function(){
+    $("#app_body").css({"opacity":"1"})
+    var swiper = new Swiper('.swiper_container', {
+        loop: false,
+        slidesPerView: 3.6,
+     });
+     $(".swiper-wrapper").css({"transform":"translate3d(-"+3.87+"rem, 0px, 0px)"})
+
+}
+
+   
+</script>
+
+</html>

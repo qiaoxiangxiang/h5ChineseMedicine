@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="full-screen" content="yes">
+    <!-- <meta name="x5-fullscreen" content="true"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>关于我们</title>
+    <script src="../../js/flexible.js"></script>
+    <script src="../../js/jquery-2.1.4.js"></script>
+    <script src="../../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <!-- 本页引入 -->
+    <link rel="stylesheet" href="../../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../../css/about_us/about_us.css">
+</head>
+
+<body>
+    <div id="app_body">
+        <div class="center">
+            <img class="jourmalism" src="../../img/banner/about_us_02.png" alt="">
+            <div class="jourmalism_nav">
+                <div class="swiper-container swiper-container-horizontal swiper_container">
+                    <div class="swiper-wrapper">
+                        
+                            <div class="swiper-slide swiper-slide-active">
+                                <a href="about_us.html"><span class="jourmalism_nav_span">出版社简介</span></a>
+                            </div>
+                        
+                        
+                            <div class="swiper-slide">
+                                <a href="about_us_chart.html">
+                                    <span class="jourmalism_nav_span jourmalism_nav_span1">组织架构</span>
+                                </a>
+                                <span class="jourmalism_nav_span2"></span>
+                            </div>
+                        
+                        
+                            <div class="swiper-slide">
+                                <a href="about_us_company.html"><span class="jourmalism_nav_span">企业文化</span></a>
+                            </div>
+                        
+                        
+                            <div class="swiper-slide">
+                                <a href="about_us_contact.html"><span class="jourmalism_nav_span">联系我们</span></a>
+                            </div>
+                        
+                       
+                            <div class="swiper-slide">
+                                 <a href="about_us_jobs.html"><span class="jourmalism_nav_span">招贤纳士</span></a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="newbook_text_title">
+                <div class="title_name">组织架构</div>
+                <div class="title_Ename">
+                    <span class="xian"></span>
+                    <span class="title_Ename_txt">ORGANIZATIONAL STRUCTURE</span>
+                    <span class="xian"></span>
+                </div>
+            </div>
+            <div class="chart">
+                <div class="chart_top">
+                    社长（总编辑）
+                    <div class="chart_xian1"></div>
+                </div>
+                <div class="chart_center">
+                    副社长（副总编辑）
+                    <div class="chart_xian2">
+                        <div class="chart_xian_content"></div>
+                    </div>
+                </div>
+
+                <ul class="chart_content">
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                    <li class="chart_list">副社长
+                <ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../../js/babel.js"></script>
+<script type="text/babel">
+window.onload = function(){
+    $("#app_body").css({"opacity":"1"})
+    var swiper = new Swiper('.swiper_container', {
+        loop: false,
+        slidesPerView: 3.6,
+     });
+    var zhi = 0.72*($(".chart_list").length);
+    $(".chart_xian_content").css({"width":zhi+5+"rem","left":0-(zhi/2)+"rem"})
+    for(let i=0;i<$(".chart_list").length;i++){
+        $(".chart_xian_content").append("<div class='chart_xian3'>");
+    }
+
+}
+
+   
+</script>
+
+</html>

@@ -1,0 +1,53 @@
+.center{
+    width: 100%;
+}
+.center_img{
+    width: 100%;
+}
+.newbook_list:nth-last-of-type(1){
+    margin-right: 0;
+}
+.newbook_content{
+    width: 9.33rem;
+    margin: 0 auto;
+}
+.newbook_list{
+    margin-right: .65rem;
+    display: inline-block;
+}
+.newbook_list:nth-child(3n){
+    margin-right: 0;
+}
+.newbook_list>a{
+    text-decoration: none;
+}
+.newbook_list,.newbook_list_img{
+    width: 2.62rem;
+    height: 100%;
+}
+.newbook_list_img{
+    border: 1px solid #fff;
+    border-radius: .1rem;
+}
+.newbook_list_txt>p,.newbook_list_txt{
+    width: 100%;
+}
+.newbook_list_txt>p{
+    font-size: .281rem;
+    color: #666;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.newbook_list_txt>p:nth-of-type(1){
+    font-size: .322rem;
+    margin: .2rem 0 .1rem;
+    color: #333;
+}
+.newbook_list_txt>p:nth-of-type(2){
+    margin-bottom: 46px;
+}
+.gengduo_txt{
+    margin-top: 0; 
+}

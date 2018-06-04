@@ -105,6 +105,7 @@
 /* 内容 */
 .dynamic_content{
     width: 100%;
+    display: none;
 }
 .dynamic_img_txt{
     width: 100%;
@@ -189,6 +190,10 @@
     font-size: .36rem;
     color: #999;
     margin-top: .52rem;
+}
+.huan>a{
+    color: #999;
+    text-decoration: none;
 }
 /* 9宫格 */
 .list_div{
@@ -327,13 +332,15 @@
     height:.56rem;
 }
 .shuzi_list_txt_div a{
-    display: inline-block;
+    display: block;
     width: 1.77rem;
     height: .56rem;
+    margin: 0 auto;
+    text-decoration: none;
 }
 .shuzi_chakan{
     font-size: .28rem;
-    display: inline-block;
+    display: block;
     padding: .1rem .26rem;
     background: #fff;
     border-radius: .26rem;   

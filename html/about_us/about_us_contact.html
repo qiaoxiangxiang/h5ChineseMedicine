@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="full-screen" content="yes">
+    <!-- <meta name="x5-fullscreen" content="true"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>关于我们</title>
+    <script src="../../js/flexible.js"></script>
+    <script src="../../js/jquery-2.1.4.js"></script>
+    <script src="../../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <!-- 本页引入 -->
+    <link rel="stylesheet" href="../../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../../css/about_us/about_us.css">
+</head>
+
+<body>
+    <div id="app_body">
+        <div class="center">
+            <img class="jourmalism" src="../../img/banner/about_us_02.png" alt="">
+            <div class="jourmalism_nav">
+                <div class="swiper-container swiper-container-horizontal swiper_container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-active">
+                            <a href="about_us.html">
+                                <span class="jourmalism_nav_span">出版社简介</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_chart.html">
+                                <span class="jourmalism_nav_span">组织架构</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_company.html">
+                                <span class="jourmalism_nav_span">企业文化</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_contact.html">
+                                <span class="jourmalism_nav_span jourmalism_nav_span1">联系我们</span>
+                            </a>
+                            <span class="jourmalism_nav_span2"></span>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="about_us_jobs.html">
+                                <span class="jourmalism_nav_span">招贤纳士</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="newbook_text_title">
+                <div class="title_name">联系我们</div>
+                <div class="title_Ename">
+                    <span class="xian"></span>
+                    <span class="title_Ename_txt">CONTACT US</span>
+                    <span class="xian"></span>
+                </div>
+            </div>
+            <div class="contact_us">
+                <div class="erweima">
+                    <div class="erweima_list">
+                        <div class="erweima_list_left">
+                            <img src="../../img/about_us/contact_us_03.png" alt="">
+                            <p>天猫旗舰店</p>
+                        </div>
+                    </div>
+                    <div class="erweima_list">
+                        <div class="erweima_list_right">
+                            <img src="../../img/about_us/contact_us_05.png" alt="">
+                            <p>京东旗舰店</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="content_us_ul">
+                    <li class="content_us_title">中国医药科技出版社</li>
+                    <li class="content_us_content">公司地址：北京市海淀区文慧园北路甲22号</li>
+                    <li class="content_us_content">联系电话：购书电话：010-62236938</li>
+                    <li class="content_us_content">传真：010-62241517</li>
+                    <li class="content_us_content content_us_content1">办公室 ：010-62241517</li>
+                    <li class="content_us_content">总编室：010-62215126</li>
+                    <li class="content_us_content">网站事宜：010-62225154</li>
+                </ul>
+                <ul class="content_us_ul">
+                    <li class="content_us_title">银行汇款</li>
+                    <li class="content_us_content">开户名称：中国医药科技出版社</li>
+                    <li class="content_us_content">开户行：工商银行北京新街口支行</li>
+                    <li class="content_us_content">账号：020000290900461594</li>
+                </ul>
+                <ul class="content_us_ul">
+                    <li class="content_us_title">邮局汇款</li>
+                    <li class="content_us_content">邮政编码：100082</li>
+                    <li class="content_us_content">地址：北京市海淀区文化园北路甲22号</li>
+                    <li class="content_us_content">联系人：张琼</li>
+                    <li class="content_us_content">中国医药科技出版社发行部</li>
+                </ul>
+                <img class="Map" src="../../img/about_us/contact_us_10.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../../js/babel.js"></script>
+<script type="text/babel">
+window.onload = function(){
+    $("#app_body").css({"opacity":"1"})
+    var swiper = new Swiper('.swiper_container', {
+        loop: false,
+        slidesPerView: 3.6,
+     });
+     $(".swiper-wrapper").css({"transform":"translate3d(-"+1.14+"rem, 0px, 0px)"})
+}
+
+   
+</script>
+
+</html>
