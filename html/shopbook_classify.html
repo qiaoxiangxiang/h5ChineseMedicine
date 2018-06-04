@@ -23,6 +23,9 @@
 
 <body>
     <div id="app_body">
+         <!-- 公共头 -->
+         <div class="contentJ"></div>
+         <!-- 本页主体 -->
         <div class="center">
             <div class="shopbook_banner">
                 <img class="shopbook_banner_img" src="../img/shopbook/shopbook_bj_02.png" alt="">
@@ -109,9 +112,15 @@
             </div>
 
         </div>
+
+        <div class="content_bottom"></div>
+        
     </div>
 
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
@@ -146,6 +155,8 @@ window.onload = function(){
             $(this).css({"color":"#0e5daa"})
         })
    }
+
+    $(".title").html("图书商城")
 
 }
 

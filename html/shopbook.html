@@ -16,12 +16,16 @@
     <script src="../js/swiper.min.js"></script>
     <link rel="stylesheet" href="../css/swiper.min.css">
     <link rel="stylesheet" href="../css/index.css">
+    
     <!-- 本页引入 -->
     <link rel="stylesheet" href="../css/shop/shopbook.css">
 </head>
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
             <div class="shopbook_banner">
                 <img class="shopbook_banner_img" src="../img/shopbook/shopbook_bj_02.png" alt="">
@@ -192,14 +196,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="content_bottom"></div>
     </div>
 
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
-    // 图书购买
+    var height = window.innerHeight - $(".top").height() - $(".bottom").height()
+    $(".center").css({"min-height":height+"px"})
+
+    //本页  图书购买
     $(".classify_content").eq(0).css({"display":"block"})
     for (let index = 0; index < $(".classify_name").length; index++) {
         $(".classify_name").eq(index).click(function(){
@@ -213,6 +225,8 @@ window.onload = function(){
             $(".classify_content").eq(index).css({"display":"block"})
         })
     }
+
+$(".title").html("图书商场")
 
 }
 

@@ -11,20 +11,23 @@
     <!-- <meta name="x5-fullscreen" content="true"> -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>关于我们</title>
-    <script src="../../js/flexible.js"></script>
-    <script src="../../js/jquery-2.1.4.js"></script>
-    <script src="../../js/swiper.min.js"></script>
-    <link rel="stylesheet" href="../../css/swiper.min.css">
-    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- 本页引入 -->
-    <link rel="stylesheet" href="../../css/journalism/journalism.css">
-    <link rel="stylesheet" href="../../css/about_us/about_us.css">
+    <link rel="stylesheet" href="../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../css/about_us/about_us.css">
 </head>
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
-            <img class="jourmalism" src="../../img/banner/about_us_02.png" alt="">
+            <img class="jourmalism" src="../img/banner/about_us_02.png" alt="">
             <div class="jourmalism_nav">
                 <div class="swiper-container swiper-container-horizontal swiper_container">
                     <div class="swiper-wrapper">
@@ -142,13 +145,19 @@
                         </li>
                     </ul>
                 </div>
-                <img class="jobs_img" src="../../img/about_us/tuandui_03.png" alt="">
+                <img class="jobs_img" src="../img/about_us/tuandui_03.png" alt="">
             </div>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
-<script src="../../js/babel.js"></script>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
+<script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
@@ -157,6 +166,8 @@ window.onload = function(){
         slidesPerView: 3.6,
      });
      $(".swiper-wrapper").css({"transform":"translate3d(-"+3.87+"rem, 0px, 0px)"})
+
+      $(".title").html("关于我们")
 
 }
 

@@ -91,11 +91,14 @@
     color: #b9b9b9;
     border: none;
     outline: none;
+    float: left;
 }
 .sousuo_img{
     width: .644rem;
     position: relative;
-    top: .2rem
+    top: .28rem;
+    float: right;
+
 }
 .xiazai{
     width: 8.526rem;
@@ -117,7 +120,7 @@
 }
 .xiazai_list_span{
     display: inline-block;
-    width: 6.36rem;
+    width: 6.3rem;
     font-size: .36rem;
     color: #333;
     margin-top: .34rem;
@@ -135,6 +138,7 @@
 .xiazai_list_div>img{
     width: .305rem;
     vertical-align: middle;
+    margin-right: .06rem;
 }
 /* 图书 */
 .new_book{
@@ -200,7 +204,7 @@
 }
 .tougao_txt{
     width: 100%;
-    margin: 1.03rem 0 .77rem;
+    margin: 1rem 0 .77rem;
     line-height: .68rem;
 }
 .tougao_txt>p{

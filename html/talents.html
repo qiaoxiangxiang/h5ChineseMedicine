@@ -23,6 +23,9 @@
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
             <!-- 内容提要 -->
             <div class="legislation_img">
@@ -120,15 +123,21 @@
                 <p>我们工作地点：北京市海淀区文慧园南路甲2号</p>
             </div>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
     
-    
+    $(".title").html("人才招聘")
 
 }
 

@@ -11,20 +11,23 @@
     <!-- <meta name="x5-fullscreen" content="true"> -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>新闻详情</title>
-    <script src="../../js/flexible.js"></script>
-    <script src="../../js/jquery-2.1.4.js"></script>
-    <script src="../../js/swiper.min.js"></script>
-    <link rel="stylesheet" href="../../css/swiper.min.css">
-    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- 本页引入 -->
-    <link rel="stylesheet" href="../../css/journalism/journalism.css">
-    <link rel="stylesheet" href="../../css/journalism/journalism_detail.css">
+    <link rel="stylesheet" href="../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../css/journalism/journalism_detail.css">
 </head>
 
 <body>
     <div id="app_body">
+         <!-- 公共头 -->
+         <div class="contentJ"></div>
+         <!-- 本页主体 -->
         <div class="center">
-            <img class="jourmalism" src="../../img/jourmalism/xinwenList_02.png" alt="">
+            <img class="jourmalism" src="../img/jourmalism/xinwenList_02.png" alt="">
             <div class="jourmalism_nav">
                 <div class="swiper-container swiper-container-horizontal swiper_container">
                     <div class="swiper-wrapper">
@@ -62,14 +65,14 @@
                 <p class="jourmalism_detail_p">2017年9月5日，青岛大学、腾讯云计算（北京）有限公司（以下简称“腾讯云”）与上海墨桐花开教育科技有限公司签署“互联网+教育”合作协议并举办开幕仪式。</p>
                 <p class="jourmalism_detail_p">此外，腾讯云还将在科学精神与科技前沿课程、创新精神与创业实践等方面的通识教育核心课程，同青岛大学开展进行相互交流学习与支持。</p>
                 <div class="journalism_detail_img">
-                    <img src="../../img/jourmalism/jourmalism_detail_03.png" alt="">
-                    <img src="../../img/jourmalism/jourmalism_detail_05.png" alt="">
+                    <img src="../img/jourmalism/jourmalism_detail_03.png" alt="">
+                    <img src="../img/jourmalism/jourmalism_detail_05.png" alt="">
                 </div>
                 <p class="jourmalism_detail_p">同时，青岛大学还将联合腾讯云建设智慧教学平台；助力青岛大学学子参与“互联网+”大学生创新创业大赛，共同建设云计算安全和大数据安全实验室；墨桐花开和腾讯联合为合作院校定制最为合理的教学支持服务体系。</p>
                 <p class="jourmalism_detail_p">此次腾讯云与青岛大学签约，也会进一步将腾讯教育云的布局通过青岛大学在山东全省复制，从而推动山东省的“新工科”建设和人才培养，通过山东作为教育大省的影响力逐渐辐射全国。</p>
                 <div class="journalism_detail_img">
-                    <img src="../../img/jourmalism/jourmalism_detail_09.png" alt="">
-                    <img src="../../img/jourmalism/jourmalism_detail_11.png" alt="">
+                    <img src="../img/jourmalism/jourmalism_detail_09.png" alt="">
+                    <img src="../img/jourmalism/jourmalism_detail_11.png" alt="">
                 </div>
                 <p class="jourmalism_detail_p">事实上，早在今年4月份，腾讯就已经和教育部签署教育合作备忘录。通过中国云计算连接校园的精品活动“云+校园”等丰富资源，实现云计算与校园的无缝结合，在创新、创业及人才培养三个方面共建符合云时代标准的教育新生态。</p>
                 <p class="jourmalism_detail_p">未来，腾讯将继续联合多方力量，继续探索新工科建设之路，通过“云+校园”等一系列活动，推进新工科建设落地，助力我国工程教育改革走向成功。</p>
@@ -86,10 +89,16 @@
                 </div>
             </a>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
-<script src="../../js/babel.js"></script>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
+<script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
@@ -97,6 +106,8 @@ window.onload = function(){
         loop: false,
         slidesPerView: 3.6,
      });
+
+     $(".title").html("新闻详情")
 
 }
 

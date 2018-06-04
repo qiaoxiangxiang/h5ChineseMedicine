@@ -10,20 +10,23 @@
     <meta name="full-screen" content="yes">
     <!-- <meta name="x5-fullscreen" content="true"> -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>党建工作</title>
-    <script src="../../js/flexible.js"></script>
-    <script src="../../js/jquery-2.1.4.js"></script>
-    <script src="../../js/swiper.min.js"></script>
-    <link rel="stylesheet" href="../../css/swiper.min.css">
-    <link rel="stylesheet" href="../../css/index.css">
+    <title>书业动态</title>
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- 本页引入 -->
-    <link rel="stylesheet" href="../../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../css/journalism/journalism.css">
 </head>
 
 <body>
     <div id="app_body">
+         <!-- 公共头 -->
+         <div class="contentJ"></div>
+         <!-- 本页主体 -->
         <div class="center">
-            <img class="jourmalism" src="../../img/jourmalism/xinwenList_02.png" alt="">
+            <img class="jourmalism" src="../img/jourmalism/xinwenList_02.png" alt="">
             <div class="jourmalism_nav">
                 <div class="swiper-container swiper-container-horizontal swiper_container">
                     <div class="swiper-wrapper">
@@ -36,15 +39,15 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="book_dynamic.html">
-                                <span class="jourmalism_nav_span">书业动态</span>
+                                <span class="jourmalism_nav_span jourmalism_nav_span1">
+                                    书业动态
+                                    <span class="jourmalism_nav_span2"></span>
+                                </span>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="policy.html">
-                                <span class="jourmalism_nav_span jourmalism_nav_span1">
-                                    党建工作
-                                    <span class="jourmalism_nav_span2"></span>
-                                </span>
+                                <span class="jourmalism_nav_span">党建工作</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
@@ -64,7 +67,7 @@
                         </p>
                         <p class="jourmalism_left_p3">2017-11-28</p>
                     </div>
-                    <img class="jourmalism_right" src="../../img/jourmalism/xinwenList_05.png" alt="">
+                    <img class="jourmalism_right" src="../img/jourmalism/xinwenList_05.png" alt="">
                 </a>
             </div>
             <div class="jourmalism_content">
@@ -76,7 +79,7 @@
                         </p>
                         <p class="jourmalism_left_p3">2017-11-28</p>
                     </div>
-                    <img class="jourmalism_right" src="../../img/jourmalism/xinwenList_05.png" alt="">
+                    <img class="jourmalism_right" src="../img/jourmalism/xinwenList_05.png" alt="">
                 </a>
             </div>
             <div class="jourmalism_content">
@@ -88,21 +91,10 @@
                         </p>
                         <p class="jourmalism_left_p3">2017-11-28</p>
                     </div>
-                    <img class="jourmalism_right" src="../../img/jourmalism/xinwenList_05.png" alt="">
+                    <img class="jourmalism_right" src="../img/jourmalism/xinwenList_05.png" alt="">
                 </a>
             </div>
-            <div class="jourmalism_content">
-                <a href="journalism_detail.html">
-                    <div class="jourmalism_left">
-                        <p class="jourmalism_left_p1">全国食品药品职业教育教学趴</p>
-                        <p class="jourmalism_left_p2">
-                            2013年11月23日，全国食品药品职业 教育教学指导委员会年委员。
-                        </p>
-                        <p class="jourmalism_left_p3">2017-11-28</p>
-                    </div>
-                    <img class="jourmalism_right" src="../../img/jourmalism/xinwenList_05.png" alt="">
-                </a>
-            </div>
+
             <!-- 更多 -->
             <div class="gengduo">
                 <a href="">
@@ -112,10 +104,16 @@
                 </a>
             </div>
         </div>
+        
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
-<script src="../../js/babel.js"></script>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
+<script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
@@ -124,6 +122,7 @@ window.onload = function(){
         slidesPerView: 3.6,
      });
     
+     $(".title").html("新闻列表")
 
 }
 

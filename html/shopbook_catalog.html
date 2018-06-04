@@ -22,6 +22,9 @@
 
 <body>
     <div id="app_body">
+         <!-- 公共头 -->
+         <div class="contentJ"></div>
+         <!-- 本页主体 -->
         <div class="center">
             <div class="shopbook_detail">
                 <div class="detail_div">
@@ -112,9 +115,15 @@
                 </a>
             </div>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
@@ -147,6 +156,9 @@ window.onload = function(){
     //         $(this).find(".border_bottom").css({"display":"block"})
     //     })
     // }
+    $(".title").html("图书详情")
+    
+    
 
 }
 

@@ -11,20 +11,23 @@
     <!-- <meta name="x5-fullscreen" content="true"> -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>关于我们</title>
-    <script src="../../js/flexible.js"></script>
-    <script src="../../js/jquery-2.1.4.js"></script>
-    <script src="../../js/swiper.min.js"></script>
-    <link rel="stylesheet" href="../../css/swiper.min.css">
-    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- 本页引入 -->
-    <link rel="stylesheet" href="../../css/journalism/journalism.css">
-    <link rel="stylesheet" href="../../css/about_us/about_us.css">
+    <link rel="stylesheet" href="../css/journalism/journalism.css">
+    <link rel="stylesheet" href="../css/about_us/about_us.css">
 </head>
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
-            <img class="jourmalism" src="../../img/banner/about_us_02.png" alt="">
+            <img class="jourmalism" src="../img/banner/about_us_02.png" alt="">
             <div class="jourmalism_nav">
                 <div class="swiper-container swiper-container-horizontal swiper_container">
                     <div class="swiper-wrapper">
@@ -67,7 +70,7 @@
                 </div>
             </div>
             <div class="company">
-                <img class="company_img" src="../../img/about_us/company_03.png" alt="">
+                <img class="company_img" src="../img/about_us/company_03.png" alt="">
                 <p class="company_text company_text1">
                     企业文化建设是一项系统工程，是现代发展必不可少的竞争法宝。一个没有企业文化的企业是没有前途的企业，一个没有信念的企业是没有希望的企业。我社在2010年底成为真正的国有企业之前，长期处在“事业单位，企业管理”的状态中，出版社缺乏现代企业管理理念，职工没有“做企业人”意识急需重塑出版社企业文化。
                 </p>
@@ -77,10 +80,16 @@
                 </p>
             </div>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
-<script src="../../js/babel.js"></script>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
+<script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
@@ -88,6 +97,8 @@ window.onload = function(){
         loop: false,
         slidesPerView: 3.6,
      });
+
+    $(".title").html("关于我们")
 
 }
 

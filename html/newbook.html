@@ -22,6 +22,9 @@
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
             <img class="center_img" src="../img/new_book/newbook_02.png" alt="">
         </div>
@@ -115,14 +118,21 @@
                 </div>
             </a>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
     
-
+   
+    $(".title").html("新书推荐")
 }
 
    

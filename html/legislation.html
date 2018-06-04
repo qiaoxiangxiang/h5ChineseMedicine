@@ -23,6 +23,9 @@
 
 <body>
     <div id="app_body">
+        <!-- 公共头 -->
+        <div class="contentJ"></div>
+        <!-- 本页主体 -->
         <div class="center">
             <!-- 内容提要 -->
             <img class="legislation_img" src="../img/banner/legislation_02.png" alt="">
@@ -69,15 +72,21 @@
                     （10）含有法律、行政法规禁止的其他内容的。<br>
             </div>
         </div>
+
+        <div class="content_bottom"></div>
+
     </div>
 
 </body>
+<!-- 公共头 -->
+<script src="../js/index.js"></script>
+
 <script src="../js/babel.js"></script>
 <script type="text/babel">
 window.onload = function(){
     $("#app_body").css({"opacity":"1"})
     
-    
+    $(".title").html("法律声明")
 
 }
 
